@@ -6,18 +6,18 @@ const nums = [13, 87, 2, 89, 12, 4, 90, 63];
 
 // Your code here
 const numbers = nums.map(num => num * 2);
-// console.log(numbers)
+console.log(numbers)
 
 
 
 // Given the following array, use destructuring to pull out the first and second values and place them into variables. Log both variables.
 
-// const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
+const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
 
 // Your code here
 // const [firstTopping, secondTopping] = pizzaToppings
-// console.log(firstTopping)
-// console.log(secondTopping)
+console.log(firstTopping)
+console.log(secondTopping)
 
 // Given the following object, use destructuring to create variables `make` and `model` that will hold the respective values.
 
@@ -40,7 +40,7 @@ const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
 
 // Your code here
 const controversialPizzaToppings = [...pizzaToppings]
-// console.log(controversialPizzaToppings)
+console.log(controversialPizzaToppings)
 
 // Create an object named userProfile. 
 // Define a variable named propertyName and assign a string to it (like a username, age, or email). 
@@ -57,7 +57,7 @@ const nameType = {
     [propertyName]: 0,
 }
 
-// console.log(nameType)
+console.log(nameType)
 
 // Create a function that takes two parameters, `noun` and `adjective`, both with the following respective default values:
 
@@ -71,7 +71,7 @@ const nameType = {
 const noun = 'cat';
 const adjective = 'white';
 
-// console.log(`the ${noun} is ${adjective}`)
+console.log(`the ${noun} is ${adjective}`)
 
 // Convert the following `if...else` statement in to a ternary:
 
@@ -85,7 +85,7 @@ if (pizza === 'tasty') {
 
 // Your code here
 let tasty = 'yum' ? 'yes' : 'no';
-// console.log('tasty')
+console.log('tasty')
 
 
 // 1. SET LANGUAGE
@@ -105,7 +105,7 @@ const lang = 'en' || localLangConfig
 
 
 // Log the result
-// console.log('Language setting:', lang);
+console.log('Language setting:', lang);
 
 
 
@@ -121,7 +121,7 @@ const USER_THEME = userSavedTheme || 'light'
 
 
 // Log the result
-// console.log('User theme setting:', USER_THEME);
+console.log('User theme setting:', USER_THEME);
 
 
 // Now check for `cat.age` on `adventurer`. See how it errors out? Use optional chaining in a console.log that it returns undefined instead.
